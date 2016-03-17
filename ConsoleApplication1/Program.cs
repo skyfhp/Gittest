@@ -21,9 +21,9 @@ namespace ConsoleApplication1
         }
         public int Div(int a, int b)
         {
-            //return a / b;
+            return a / b;
             
-             if (b!=0)
+            /* if (b!=0)
             {
                   return a / b;
             }
@@ -32,7 +32,7 @@ namespace ConsoleApplication1
              {
                   Console.WriteLine("除数不能为零");
                   return 0;
-              }
+              }*/
         }
         static void Main(string[] args)
         {
