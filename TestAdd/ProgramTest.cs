@@ -93,6 +93,18 @@ namespace TestAdd
           //  Assert.Inconclusive("验证此测试方法的正确性。");
         }
 
+
+        public void DecTest1()
+        {
+            Program target = new Program(); // TODO: 初始化为适当的值
+            int a = 3; // TODO: 初始化为适当的值
+            int b = 7; // TODO: 初始化为适当的值
+            int expected = -4; // TODO: 初始化为适当的值
+            int actual;
+            actual = target.Dec(a, b);
+            Assert.AreEqual(expected, actual);
+            //  Assert.Inconclusive("验证此测试方法的正确性。");
+        }
         /// <summary>
         ///Div 的测试
         ///</summary>
